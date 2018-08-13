@@ -16,7 +16,7 @@ int isUnique(char *input);
 
 int main()
 {
-    int initialTime = time(NULL);
+    char initialTime = time(NULL);
     if (isUnique(INPUT))
         printf("TRUE\n");
     else
