@@ -29,7 +29,7 @@ int main()
 int isUnique(char *input)
 {
     size_t lenght = strlen(input);
-    unsigned long head, test;
+    char head, test;
 
     // Ad Hoc Jumps
     if (lenght < 2)
