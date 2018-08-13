@@ -40,9 +40,9 @@ int isUnique(char *input)
 
     for (character = 0; character < lenght; character++)
     {
-        map[input[character]]++;
-        if (map[input[character]] > 1)
+        if (map[input[character]] > 0)
             return FALSE;
+        map[input[character]]++;
     }
     return TRUE;
 }
